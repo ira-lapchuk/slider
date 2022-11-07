@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="img-box">
+          <button class="prev-btn" onclick="prev()"> < </button>
+          <button class="next-btn" onclick="next()"> > </button>
+          <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThi4xc9zfm2GQVUqI8ZxZAIttbZsZyQd-bgg&usqp=CAU" id="main-img">
+        </div>
+          
+        <div class="dot-container">
+            <button id="dot1" class="dot-btn active" onclick="changeImg('first')"></button>
+            <button id="dot2" class="dot-btn " onclick="changeImg('second')"></button>
+            <button id="dot3" class="dot-btn" onclick="changeImg('third')"></button>
+            <button id="dot4" class="dot-btn" onclick="changeImg('fourth')"></button>
+        </div>
+      </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
+
+
+
